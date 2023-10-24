@@ -387,7 +387,7 @@
                                 <li class="about__info--items">First Name: Jeff</li>
                                 <li class="about__info--items">Last Name: Odhiambo</li>
                                 <li class="about__info--items">Phone: <a href="tel:+254790193045">+254790193045</a></li>
-                                <li class="about__info--items">Age: 24 Years</li>
+                                <li class="about__info--items">Age: 23 Years</li>
                                 <li class="about__info--items">Email: <a href="mailto:o.jeff3.a@mail.com">o.jeff3.a@mail.com</a></li>
                                 <li class="about__info--items">Nationality: Kenyan</li>
                                 <li class="about__info--items">Freelance: Available</li>
@@ -1010,7 +1010,7 @@
             <div class="container">
                 <div class="section__heading text-center mb-50">
                     <span class="section__heading--subtitle text__secondary">TESTIMONIALS</span>
-                    <h2 class="section__heading--title">We are people say me</h2>
+                    <h2 class="section__heading--title">What People Say About Me</h2>
                 </div>
                 <div class="testimonial__inner testimonial__swiper--activation swiper">
                     <div class="swiper-wrapper">
@@ -1070,16 +1070,14 @@
                                         </li>
                                     </ul>
                                     <p class="testimonial__desc">
-                                        “We understand the importance of approaching each work
-                                        integrally and believe in the power of simple and we say
-                                        easy cation growth.
+                                        <q>Reliable and creative. I'll definitely work with you again. Thanks alot</q>
                                     </p>
                                 </div>
                                 <div class="testimonial__author">
-                                    <img class="testimonial__author--media"
-                                        src="assets/img/other/testimonial-author-thumb.png" alt="img" />
-                                    <h3 class="testimonial__author--title">Romes Barson</h3>
-                                    <span class="testimonial__author--subtitle">Manager</span>
+                                    <img class="testimonial__author--media" style="border: 1px solid gray; border-radius: 50%;"
+                                        src="assets/img/other/brian.png" alt="img" />
+                                    <h3 class="testimonial__author--title">Brian Kolando</h3>
+                                    <span class="testimonial__author--subtitle">MD. Starbase Media</span>
                                 </div>
                             </div>
                         </div>
@@ -1139,16 +1137,14 @@
                                         </li>
                                     </ul>
                                     <p class="testimonial__desc">
-                                        “We understand the importance of approaching each work
-                                        integrally and believe in the power of simple and we say
-                                        easy cation growth.
+                                        <q>A true professional in every sense. I'll always recommend your work.</q>
                                     </p>
                                 </div>
                                 <div class="testimonial__author">
-                                    <img class="testimonial__author--media"
-                                        src="assets/img/other/testimonial-author-thumb.png" alt="img" />
-                                    <h3 class="testimonial__author--title">Romes Barson</h3>
-                                    <span class="testimonial__author--subtitle">Manager</span>
+                                    <img class="testimonial__author--media" style="border: 1px solid gray; border-radius: 50%;"
+                                        src="assets/img/other/bethany.png" alt="img" />
+                                    <h3 class="testimonial__author--title">Bethany Jepchumba</h3>
+                                    <span class="testimonial__author--subtitle">Cloud Advocate, Microsoft</span>
                                 </div>
                             </div>
                         </div>
@@ -1208,16 +1204,14 @@
                                         </li>
                                     </ul>
                                     <p class="testimonial__desc">
-                                        “We understand the importance of approaching each work
-                                        integrally and believe in the power of simple and we say
-                                        easy cation growth.
+                                        <q>Very satisfied with your service,work exceeded my expectations good job!</q>
                                     </p>
                                 </div>
                                 <div class="testimonial__author">
-                                    <img class="testimonial__author--media"
-                                        src="assets/img/other/testimonial-author-thumb.png" alt="img" />
-                                    <h3 class="testimonial__author--title">Romes Barson</h3>
-                                    <span class="testimonial__author--subtitle">Manager</span>
+                                    <img class="testimonial__author--media" style="border: 1px solid gray; border-radius: 50%;"
+                                        src="assets/img/other/ayall.png" alt="img" />
+                                    <h3 class="testimonial__author--title">Ayall Maria</h3>
+                                    <span class="testimonial__author--subtitle">Business Lady</span>
                                 </div>
                             </div>
                         </div>
@@ -1253,28 +1247,27 @@
                             <div class="section__heading mb-50">
                                 <span class="section__heading--subtitle text__secondary">CONTACT</span>
                                 <h2 class="section__heading--title mb-10">
-                                    Get I contact work
+                                    Get in Touch
                                 </h2>
                                 <p class="section__heading--desc">
-                                    Promote your blog posts, case udie, and product ouncems with
-                                    the the branded videoscustomers coming back for services
-                                    Makes best effort.
+                                    Reach out for any inquiries, feedback, or project proposals.Am here to assist you with your needs and provide the best solutions.
                                 </p>
                             </div>
-                            <form class="contact__form" action="#">
+                            <form class="contact__form" method="POST" action="" id="contactForm">
                                 <div class="row">
+                                    <input type="hidden" name="subject" value="Message from Jeff's Portfolio, Intended for Jeff">
                                     <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                        <input class="contact__input--field" placeholder="Your name" type="text" />
+                                        <input class="contact__input--field" placeholder="Your name" required name="name" type="text" />
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                        <input class="contact__input--field" placeholder="Your email" type="text" />
+                                        <input class="contact__input--field" placeholder="Your email" required name="email" type="text" />
                                     </div>
                                 </div>
-                                <textarea class="contact__textarea--field" placeholder="Message"></textarea>
-                                <button class="contact__button primary__btn">
+                                <textarea class="contact__textarea--field" placeholder="Message" required name="message"></textarea>
+                                <button class="contact__button primary__btn" id="submitButton">
                                     Send Request
                                 </button>
-                            </form>
+                            </form>                            
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -1291,8 +1284,8 @@
                                 <div class="contact__info--content">
                                     <h3 class="contact__info--title">Call Me</h3>
                                     <p class="contact__info--desc">
-                                        <a href="tel:+880254615566">+880254615566</a> <br />
-                                        <a href="tel:+880254615566">+880254615566</a>
+                                        <a href="tel:+254790193045">+254790193045</a> <br />
+                                        <a href="tel:+254795067776">+254795067776</a>
                                     </p>
                                 </div>
                             </div>
@@ -1310,9 +1303,9 @@
                                 <div class="contact__info--content">
                                     <h3 class="contact__info--title">Email Us</h3>
                                     <p class="contact__info--desc">
-                                        <a href="mailto:info@example.com">info@example.com</a>
+                                        <a href="mailto:o.jeff3.a@gmail.com">o.jeff3.a@gmail.com</a>
                                         <br />
-                                        <a href="mailto:info@example.com">info@example.com</a>
+                                        <a href="mailto:o.jeff@vstech.co.ke">o.jeff@vstech.co.ke</a>
                                     </p>
                                 </div>
                             </div>
@@ -1330,8 +1323,7 @@
                                 <div class="contact__info--content">
                                     <h3 class="contact__info--title">Address</h3>
                                     <p class="contact__info--desc">
-                                        20, 25 Dhaka,0123 <br />
-                                        Ratrba baraj,20
+                                        Juja, JKUAT Main Compus, <br/>IEET office
                                     </p>
                                 </div>
                             </div>
@@ -1668,8 +1660,39 @@
                 ?.classList.remove("dark--version");
         }
     </script>
+    <script>
+        const form = document.getElementById('contactForm');
+        const button = document.getElementById('submitButton');
+    
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            button.textContent = 'Submitting...';
+    
+            const data = {
+                name: form.name.value,
+                email: form.email.value,
+                message: form.message.value,
+                subject: form.subject.value
+            };
+    
+            fetch('https://vstech.co.ke/api/contacts/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data),
+            })
+            .then((response) => {
+                if (response.ok) {
+                    button.textContent = 'Submitted';
+                } else {
+                    button.textContent = 'Error';
+                }
+            })
+            .catch((error) => {
+                button.textContent = error.message;
+            });
+        });
+    </script>          
 </body>
-
-<!-- Mirrored from themihub.com/html/morex-bootstrap/morex/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Oct 2023 13:42:11 GMT -->
-
 </html>
