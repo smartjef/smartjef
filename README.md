@@ -1,10 +1,7 @@
 Hello there, I'm Jeff Odhiambo 👋
 
 ## About
-[![Django Developer](https://img.shields.io/badge/Django%20Developer-007ACC?style=for-the-badge&logo=django&logoColor=white)](https://jeff.vstech.co.ke/)
-[![Microsoft Learn Student Ambassador](https://img.shields.io/badge/Microsoft%20Learn%20Student%20Ambassador-FFB900?style=for-the-badge&logo=microsoft&logoColor=white)](https://studentambassadors.microsoft.com/en-US/studentambassadors/profile/c63b0734-5b98-431c-94f8-45c64993dc0f)
-[![Technier Ambassador](https://img.shields.io/badge/Technier%20Ambassador-00C0C7?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAVpJREFUOI3tk8trg1EYxX/3yO2aF8i7sKsJolYVFRZTJmZiPiTJkoSwXGGmSDCCabSUIRCR8WJikAgKFHioij0K4khBqJ8WxkXd9XN/ed7/v3fzA92U5Se5U5Se5U5Se5U5Se5U5Se5U5Se5U5Se5U5Se5U5Se5U5Se5U5Se5U5Se5U5Se5U5Se5U5Se5U5Se5U5Se5U5Se5U5Su56dhF9RcR89idVIRzdwPJc15HLVJxNh+yoOq3lIdkMTuCN2Oit9Gl3f6q3ap3wAkw6yM1mUZNkRzbYB6Sa9m6ZmX6oF5pSnmAa/ud1d5y5x4n68CYQ4i4IbMGfegZlu9Xi31j/lKjzGrcfU61/hHx2NO6O+g6jYi6UyoOqlZJp0IpjEyThpv+l5Mwz5xM0fKgTX4If4QH4zhZLyRWiZ/RRfAAAAABJRU5ErkJggg==&logoColor=white)](https://www.linkedin.com/in/jeff-odhiambo/)
-[![CEO & Founder at VSTech Limited](https://img.shields.io/badge/CEO%20%26%20Founder%20at%20VSTech%20Limited-655ced?style=for-the-badge&logo=github&logoColor=white)](https:vstech.co.ke)
+
 
 ### 🚀 Quick Overview
 
